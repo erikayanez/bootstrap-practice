@@ -9,8 +9,8 @@
     <title>Shazam Bootstrap Practice</title>
 </head>
 <body style="height:100v"; class="container-fluid">
-    <div class="bg-primary d-flex">
-        <ul class="nav p-3">
+    <div class="p-3 bg-primary d-flex">
+        <ul class="nav">
             <li class="nav-item ">
               <a class="nav-link active text-light fw-light" aria-current="page" href="#">SHAZAM</a>
             </li>
@@ -23,12 +23,56 @@
             <li class="nav-item">
                 <a class="nav-link text-light fw-light" href="#">CHARTS</a>
               </li> 
-              <li><button type="button" class="btn d-flex justify-content-end btn-md btn-primary ">Search for music</button></li>
-              <li><button type="button" class="btn d-flex justify-content-end btn-primary text-light btn-md">DOWNLOAD APP</button></li>
-              <li><button type="button" class="btn d-flex justify-content-end btn-light text-primary btn-md">CONNECT MUSIC</button> <li>
-          </ul>   
+              <div class="col d-flex justify-content-end">
+                <button type="button" class="btn bg-info d-flex justify-content-end btn-md btn-primary">Search for music</button>
+                <button type="button" class="btn bg-info d-flex justify-content-end btn-primary text-light btn-md">DOWNLOAD APP</button>
+                <button type="button" class="btn d-flex justify-content-end btn-light text-primary btn-md">CONNECT MUSIC</button>
+              </div>
+                <!-- <li>
+                    <button type="button" class="btn bg-info d-flex justify-content-end btn-md btn-primary">Search for music</button>
+                </li>
+                <li>
+                    <button type="button" class="btn bg-info d-flex justify-content-end btn-primary text-light btn-md">DOWNLOAD APP</button>
+                    </li>
+                <li>
+                    <button type="button" class="btn d-flex justify-content-end btn-light text-primary btn-md">CONNECT MUSIC</button> 
+                </li> -->
+          </ul> 
+        </div> 
+          <div class="container-fluid p-5 bg-primary">
+              <div class="row">
+                  <div class="col d-flex justify-content-center"><img src="./img/shazam-phone.jpg" alt="Phone"></div>
+                  <div class="col-sm-6">
+                    <div class="card d-flex justify-content-center">
+                      <div class="card-body bg-primary text-light">
+                        <h1 class="card-title d-flex justify-content-between">Identify songs playing around you</h1>
+                        <p class="card-text d-flex justify-content-center">Shazam will name your song in seconds.</p>
+                        <a href="#" class="btn btn-info text-light"><p>Use your phone's camera to scan and download the free Shayam app.</p><p class="text fw-bold">Availabe on IOS, Android and more devices</p></a>
+                      </div>
+                    </div>
+              </div>
+          </div> 
     </div>
-    
+    <footer>
+          <div class="container-fluid">
+            <div class="row bg-dark text-light d-flex justify-content-around p-5 d-flex mb-5">
+                <div class="d-flex flex-column justify-content-center col col-sm-3 col-md-3 col-lg-3">Column 1 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut repellat tempora inventore recusandae repellendus vero molestiae sequi dolorem nihil? Dolorem?</p>
+                    <div class="btn d-flex justify-content-around">
+                        <button type="button" class="btn btn-outline-light">Light</button>
+                        <button type="button" class="btn btn-outline-light">Light</button>
+                        <button type="button" class="btn btn-outline-light">Light</button>
+                        <button type="button" class="btn btn-outline-light">Light</button>
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-center col col-sm-3 col-md-3 col-lg-3">Column 2 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tempora alias repellendus laborum error iure fuga rerum hic veritatis obcaecati?</p></div> 
+                <div class="d-flex flex-column justify-content-center col col-sm-3 col-md-3 col-lg-3">Column 3 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, itaque harum? Neque assumenda quia molestiae laboriosam tempore provident id perferendis.
+                </p></div>
+            </div>   
+             
+            
+    <div class="bg-dark d-flex flex-row justify-content-around mb-5">
+
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
